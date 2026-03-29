@@ -12,6 +12,7 @@ import { initialInstanceStore } from "./store/instance";
 import { initialUserStore } from "./store/user";
 import { applyThemeEarly } from "./utils/theme";
 import "leaflet/dist/leaflet.css";
+import GV from "@/components/GV";
 
 // Apply theme early to prevent flash of wrong theme
 applyThemeEarly();
@@ -20,6 +21,7 @@ const Main = observer(() => (
   <>
     <RouterProvider router={router} />
     <Toaster position="top-right" />
+    <GV />
   </>
 ));
 

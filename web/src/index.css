@@ -1,6 +1,7 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "./themes/default.css";
+/* @import "https://public.gv.je/static/web/gvbtn/gvbtn.css"; */
 
 @theme {
   --default-transition-duration: 150ms;

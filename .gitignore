@@ -17,6 +17,7 @@ bin/
 .env
 
 dist
+!/server/router/frontend/dist
 
 # VSCode settings
 .vscode

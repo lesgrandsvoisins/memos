@@ -1,0 +1,1 @@
+import{K as e,j as r,W as o}from"./index-BxfU9ZNP.js";import"./leaflet-vendor-C9XOGhYb.js";import"./utils-vendor-D2m1T78Y.js";import"./mermaid-vendor-CbEYFEXq.js";const p=()=>{const{uid:t}=e();return r.jsx(o,{to:`/memos/${t}`,replace:!0})};export{p as default};
